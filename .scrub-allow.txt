@@ -1,0 +1,2 @@
+Copyright (c) 2026 Carlos Alminaque
+npx skills add carlosalminaque/agent-skills-lab
