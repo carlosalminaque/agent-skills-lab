@@ -1,53 +1,54 @@
 ---
 name: instagram-reel-thumbnail-maker
-description: "Create accurate, readable Instagram Reel cover images after reviewing the actual videos. Use for title-based covers, cover redesigns, or consistent thumbnail sets; do not infer a reel's subject from its grid image or caption alone."
+description: "Make honest, legible Instagram Reel covers only after the actual videos have been viewed. For title-led covers, redesigns or matching sets. A grid image or caption alone is never enough to say what a reel is about."
 ---
 
 # Instagram Reel Thumbnail Maker
 
 Needs: video access
 
-Use the image generation tool available to you for the final raster assets.
+Final images come from whatever image generation tool you have.
 
-## Non-negotiable source review
+## View the footage first
 
-Before designing anything:
+1. Pin down which reels were meant. Never swap in a static post, a newer reel or the item next to it on the grid without saying so.
+2. Play each one to the end where you can. For a silent or sped-up screen recording, pull frames from the start, the middle and the close.
+3. Note what it shows, what happens, how it ends and the strongest hook that is still true. A caption or title backs up the viewing; it does not replace it.
+4. Reel will not play or open? Report that and stop. No cover gets built on a guess.
 
-1. Identify the exact reels the user means. Do not silently substitute static posts, newer reels, or adjacent grid items.
-2. Watch each reel through its full duration when practical. For silent or accelerated screen recordings, inspect frames across the beginning, middle, and end.
-3. Record the concrete subject, action, result, and strongest honest hook. Captions and titles are supporting evidence, not a replacement for viewing the footage.
-4. If a reel cannot be played or inspected, say so and do not fabricate a cover from assumptions.
+## Deciding what the cover says
 
-## Cover strategy
+- Titles name the concrete thing shown or the question posed: "AI SORTS MY INBOX", "CAN IT BOOK A TABLE?"
+- If the reel is an experiment, keep it open. A test of whether a tool can do a job must not read as proof that it did the job well.
+- Draw from what is on screen: real objects, real interfaces. A browser demo shows that task and its panel; a software trial shows that kind of editor and its result.
+- Never make up a photorealistic person to stand in for someone from the footage. Unless you have an image that preserves that person's identity and a clear request for people, go with objects only or a plainly simplified drawing that shows nobody identifiable.
+- Skip stock AI imagery (robot heads, circuit patterns, glowing orbs, movie-style hackers, unrelated film-like scenes) unless the reel itself shows it or needs it to make sense.
+- Sets should look related, yet each cover must still read as its own video.
 
-- Prefer a title that states the specific demonstrated action or question, such as "CLAUDE CONTROLS INSTAGRAM" or "CHATGPT EDITED MY VIDEO."
-- Preserve uncertainty when the reel is a test. A video asking whether an AI can build a game should not become a claim that it built a polished game.
-- Base imagery on recognizable objects and interfaces from the footage. For browser-control demonstrations, show the browser task and AI side panel. For a software test, show the real kind of editor and output.
-- Avoid generic robot brains, circuit boards, glowing AI cores, fake hacker imagery, or unrelated cinematic scenes unless they appear in or materially explain the reel.
-- Keep a series visually consistent without making distinct videos look identical.
+## Layout
 
-## Instagram layout
+- 4:5 portrait unless told otherwise.
+- The profile grid crops to a center square, so title and main subject both go there.
+- Few words, big letters, high contrast, no fine print.
+- Put the exact wording in your generation prompt and ask for it letter for letter.
+- Add no face, logo, claim or ornament that nobody asked for or that misstates the video.
 
-- Default to a portrait 4:5 cover unless the user requests another format.
-- Keep the title and primary subject inside the centered square-safe region used by the profile grid.
-- Use few words, large type, strong contrast, and no small explanatory copy.
-- Request exact text verbatim in the generation prompt.
-- Do not add faces, logos, claims, or decorative elements that the user did not request or that misrepresent the video.
+## Before handing over
 
-## Validation and delivery
-
-- Inspect every generated cover for text accuracy, factual correspondence, readability at phone-thumbnail size, and grid-safe cropping.
-- Regenerate any misspelled, misleading, or illegible result instead of presenting it as final.
-- For multiple reels, generate one distinct asset per reel rather than one prompt with multiple outputs.
-- Save project-bound finals in a clearly named workspace output folder with stable descriptive filenames. Do not overwrite prior versions unless requested.
-- Report the reviewed reel/topic, exact cover title, saved path, generation method, and any material limitation.
-- Creating covers does not authorize publishing them or changing Instagram cover images.
+- Check each image: spelling, match with the footage, readable at phone thumbnail size, safe in the grid crop.
+- Anything misspelled, misleading or hard to read gets regenerated, not delivered.
+- One reel, one separate generation; never several covers from one prompt.
+- Keep files in an output folder with plain, stable names, and leave earlier versions in place unless told to replace them.
+- Report for each cover: the reel, the exact title, where it is saved, how it was made, and any limit.
+- Making a cover is not permission to post it or swap it on the account.
 
 ## Rule examples
 
-- Valid: watch the specific reel before choosing its title.
-- Invalid: infer the subject from a neighboring grid item.
-- Valid: keep an inconclusive experiment title as a question.
-- Invalid: turn an attempted task into a guaranteed success claim.
-- Valid: inspect spelling and the phone grid crop for each generated cover.
-- Invalid: deliver unreadable text or publish covers without authorization.
+- Valid: view that exact reel, then pick its title.
+- Invalid: guess the topic from the item next to it on the grid.
+- Valid: leave an inconclusive test titled as a question.
+- Invalid: turn an attempt into a promise that it worked.
+- Valid: simple object composition when no real image of the person exists.
+- Invalid: a made-up photorealistic face standing in for the speaker.
+- Valid: check spelling and the grid crop on every cover.
+- Invalid: hand over unreadable text, or post covers nobody cleared.

@@ -1,53 +1,45 @@
 ---
 name: instagram-profile-analysis
-description: "Analyze a public Instagram profile from its accessible bio, posts, reels, captions, and highlights when the user asks what the person is like, does, knows, or projects online. Separate direct evidence from inference and do not turn aesthetics into unsupported claims."
+description: "Read a public Instagram profile (bio, posts, reels, captions, highlights) when asked what its owner does, knows, is like or projects online. Keeps what the account states apart from what you infer, and refuses to turn looks or style into claims the evidence does not carry."
 ---
 
 # Instagram Profile Analysis
 
 Needs: browser control
 
-Inspect the actual profile before answering. Use the signed-in browser session when available, but do not message, follow, like, save, or otherwise interact unless the user asked for that action.
+Open the real profile first and answer from it. A signed-in browser helps, but looking is all you do: no follows, likes, saves or messages unless that action was requested.
 
-## Evidence standard
+## What counts as evidence
 
-- Read the bio, counts, links, highlight labels, and the accessible feed.
-- Open enough posts and reels to understand their contents; captions and thumbnails alone are insufficient when the user asks for a thorough analysis.
-- If the user explicitly asks for every post or highlight, review all accessible items and state what could not be opened or read.
-- Distinguish among:
-  - **Explicit:** stated by the account owner or directly shown.
-  - **Strong inference:** repeatedly supported by multiple posts.
-  - **Weak inference:** plausible but uncertain; label it clearly or omit it.
-- Never describe an inference as a discovered fact.
+Go through the bio, follower numbers, outbound links, highlight names and whatever part of the feed loads. For a thorough read, open enough individual posts and reels to know what is in them, because a grid and a few captions will mislead you. When someone asks for everything, go through every item you can reach and list the ones that would not open.
 
-## Analysis boundaries
+Sort each claim into one of three bins, and never present the last two as findings:
 
-- Analyze the online persona and demonstrated behavior, not an unknowable complete private personality.
-- Do not infer exact location, ethnicity, nationality, religion, medical conditions, criminality, military affiliation, or technical access from language, clothing, aesthetics, jokes, or usernames. Report these only when explicitly self-disclosed, and preserve that attribution.
-- Do not diagnose mental health, intelligence, or personality disorders. Intelligence may be discussed only through demonstrated skills such as writing, reasoning, technical work, or artistic judgment.
-- Cybersecurity imagery, terminals, code screenshots, or the word "hacker" do not establish hacking capability. Examine what the code or workflow actually does.
-- Keep different people in separate evidence bins. Do not transfer traits, claims, or relationship information between profiles.
-- Avoid doxxing and location triangulation. Broad regional ties may be noted only when repeatedly and publicly self-disclosed; do not derive private addresses, routines, or precise whereabouts.
+- **Stated:** the owner says it or the content plainly shows it.
+- **Well supported:** several posts back it up.
+- **Tentative:** could be true. Flag it, or leave it out.
 
-## Output
+## Where to stop
 
-Lead with the most defensible overall read, then cover whichever of these the user requested:
+You are describing a public persona and what the account shows, never a complete inner person. So:
 
-- what the person appears to do;
-- demonstrated skills and technical depth;
-- projected personality and communication style;
-- interests and recurring themes;
-- explicit biographical or religious claims;
-- notable contradictions or image-management choices;
-- what cannot be established.
+- Protected or sensitive traits (ethnicity, nationality, religion, health, criminal history, military ties, technical access) and exact location stay out unless the owner states them, and then you credit the statement to them. Clothing, humor, language and handles prove none of these.
+- No diagnoses of any kind, and no ruling on intelligence. You may describe skill that the writing, reasoning, technical work or art actually shows.
+- A terminal screenshot or a "hacker" label proves nothing about ability. Look at what the code or workflow really does.
+- One person's evidence never moves to another person's read. Keep profiles apart, including anything about their relationships.
+- No doxxing and no piecing together of whereabouts. A broad regional tie is fine only if the owner repeats it in public; homes, routines and precise movements are off limits.
 
-Be direct about thin evidence. Use phrases such as "the account projects," "she explicitly says," or "the posts demonstrate" instead of pretending certainty. Mention the reviewed scope, including inaccessible captions, private material, deleted items, or unreviewed highlights.
+## The answer
+
+Open with the read you can defend best, then answer only the parts requested: likely work, shown skills and depth, projected style, recurring interests, biographical or belief claims the owner makes, contradictions or image choices, and what stays unknown.
+
+Be plain when evidence runs thin. Write "the account projects", "the owner states" or "these posts show" rather than asserting. Close with your scope: what you went through, and what was private, deleted, unreadable or skipped.
 
 ## Rule examples
 
-- Valid: review accessible reels and name the highlights that could not be opened.
-- Invalid: claim all posts reviewed from grid thumbnails.
-- Valid: the account explicitly states its hobby; repeated posts support an interest inference.
-- Invalid: diagnose a disorder or infer private whereabouts from imagery.
-- Valid: inspect the claimed code activity before describing demonstrated skill.
-- Invalid: treat a terminal screenshot as proof of technical capability.
+- Valid: go through the reels that load, then name the highlights that failed to open.
+- Invalid: say every post was reviewed after scanning grid thumbnails.
+- Valid: quote the hobby the account names; mark a wider interest as supported by repeated posts.
+- Invalid: name a disorder, or work out someone's whereabouts from background imagery.
+- Valid: read the code the account claims before calling it skill.
+- Invalid: count a screenshot of a terminal as proof of ability.
