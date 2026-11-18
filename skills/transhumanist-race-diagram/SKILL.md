@@ -49,7 +49,7 @@ Describe curated-source selection bias. State where the material came from in on
 
 Under the chart, use either simple rows (tag, colored dot, name, definition) or detailed evidence cards (a card per track in that track's color, with dated findings). Choose cards when the person asks for the fuller version; if you restore earlier content, reconcile it against later corrections first.
 
-Preserve the title and subtitle in the deliverable through every edit round, and recheck them after each pass.
+Preserve the title, the subtitle and each track row's definition in the deliverable through every edit round, and recheck them after each pass.
 
 After showing the versions, ask which land or whether a different mix is wanted. Let the picture carry its own summary rather than restating it in prose.
 
