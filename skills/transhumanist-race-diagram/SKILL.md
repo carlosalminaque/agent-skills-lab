@@ -9,7 +9,7 @@ Needs: Diagram or chart tools and sources for factual claims.
 
 ## Set the concept and comparison
 
-The same phrase can mean quite different diagrams. Before drawing, ask only about what the request leaves open; if it already specifies these, do not ask. The four things to settle:
+The same phrase can mean quite different diagrams. Never skip settling these because the request looks obvious: a request that names only the topic gets all four questions. Ask only about what the request leaves open; if it already specifies an item, do not ask about it. The four things to settle:
 
 1. **Core concept**: capability curves, parallel research tracks, competing approaches, or a milestone timeline.
 2. **Visual style**: line chart, lanes, convergence view, or branching tree.
@@ -47,7 +47,9 @@ For relative scores, rank entities against each other first, then spread the ran
 
 Describe curated-source selection bias. State where the material came from in one plain sentence after a one-sentence description of what the diagram is, naming the source (for example a search tool or a document set).
 
-Under the chart, use either simple rows (tag, colored dot, name, definition) or detailed evidence cards (a card per track in that track's color, with dated findings). Choose cards when the person asks for the fuller version; if you restore earlier content, reconcile it against later corrections first.
+Write that provenance sentence in first person, as what the author did ("I gathered these from ..."), not as something the reader did. Name the kind of source or the platform, never a bare internal channel or folder name an outside reader cannot place. Keep it plain: no label, no italics, no extra justification, and no asides pointing at other charts.
+
+Under the chart, use either simple rows (tag, colored dot, name, definition) or detailed evidence cards (a card per track in that track's color, with dated findings). Choose cards when the person asks for the fuller version; if you restore earlier content, reconcile it against later corrections first, then say plainly what you brought back and why.
 
 Preserve the title, the subtitle and each track row's definition in the deliverable through every edit round, and recheck them after each pass.
 
